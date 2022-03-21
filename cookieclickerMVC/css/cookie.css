@@ -1,0 +1,18 @@
+html {
+    max-width: 100ch;
+    padding: 2ch;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: #121212;
+}
+
+.zero-two {
+    transition: transform 0.08s ease;
+}
+
+.zero-two:active, .zero-two.active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
